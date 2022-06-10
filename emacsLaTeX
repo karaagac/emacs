@@ -1,0 +1,6 @@
+* Very basic LaTeX file for emacs
+Add following to header of org file:
+
+#+LATEX_CLASS:article
+#+LATEX_CLASS_OPTIONS:[letterpaper]
+#+OPTIONS: toc:t (This will create table of contents. If you dont want toc: #+OPTIONS: toc:nil)
